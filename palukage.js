@@ -13,10 +13,9 @@ function findAndReplace(){
 
 function replaceText (node) {
     let value = node.nodeValue;
-    if (value.includes("muslimer") && value.includes("Paludan")) {
-        value = value.replace(/muslimer/gi, 'pandekager')
+    if (value.includes("Laura Lindahl") && value.includes("")) {
+        value = value.replace(/Laura Lindahl/gi, 'Laura Langpat')
     }
-    value = value.replace(/Paludan/gi, 'Klump');
 
     node.nodeValue = value;
 }
